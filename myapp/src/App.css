@@ -13,10 +13,11 @@ body {
     rgba(100, 115, 255, 1) 100%
   );
 }
+
 .todo-app {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   width: 520px;
   min-height: 600px;
   background: #191e36;
@@ -100,7 +101,6 @@ h1 {
     rgba(255, 118, 20, 1) 0%,
     rgba(255, 84, 17, 1) 100%
   );
-
   padding: 16px;
   border-radius: 5px;
   width: 90%;
